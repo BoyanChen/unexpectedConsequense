@@ -212,13 +212,13 @@ function printPassage(currentState) {
                     p.cacD();
                     if(p.d1 <= 10){
                         // p.filter(BLUR,10);
-                        p.image(buildingImg,180,120,buildingImg.width/3,buildingImg.height/3);
+                        p.image(buildingImg,175,115,buildingImg.width/3,buildingImg.height/3);
                         if(p.ifClick){
                             printPassage("Opposite building");
                         }
                     }else if(p.d2 <= 10){
                         // p.filter(BLUR,10);
-                        p.image(streetImg,400,390,streetImg.width/3,streetImg.height/3);
+                        p.image(streetImg,380,290,streetImg.width/3,streetImg.height/3);
                         if(p.ifClick){
                             printPassage("Street");
                         }
