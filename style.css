@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+div{
+    /*border: mintcream solid 2px;*/
+}
+
+.container{
+
+    /*margin-left: 20%;*/
+    /*text-align: center;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:60%;
+    transform: translate(-50%, -50%);
+}
+
+.storyBoard{
+    margin-top: 10px;
+    /*border: 2px solid white;*/
+    height: 550px;
+    width: 100%;
+}
+
+.interaction{
+    margin:0;
+    /*border: 2px solid white;*/
+    height: 250px;
+    width: 100%;
+}
+
+.interactiveCanvas{
+    margin: 0;
+
+}
+
+.btn{
+    color: mintcream;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#intro{
+    text-align: center;
+    z-index: 1001;
+}
+
+.btn:hover{
+    color:yellow;
+}
+
+.scripts{
+    font-size: 25px;
+}
+
+.imageContainer{
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+#ThrowAirplane{
+    width: 50%;
+    height: auto;
+}
+
+canvas{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
